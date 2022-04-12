@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12739032513C90600662FBB /* raop_play.c in Sources */ = {isa = PBXBuildFile; fileRef = E12738EE2513C90500662FBB /* raop_play.c */; };
+		E12739052513C90600662FBB /* rtsp_client.c in Sources */ = {isa = PBXBuildFile; fileRef = E12738F12513C90500662FBB /* rtsp_client.c */; };
+		E12739082513C90600662FBB /* aexcl_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = E12738F82513C90500662FBB /* aexcl_lib.c */; };
+		E12739092513C90600662FBB /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = E12738FC2513C90500662FBB /* base64.c */; };
+		E127390A2513C90600662FBB /* raop_client.c in Sources */ = {isa = PBXBuildFile; fileRef = E12738FD2513C90500662FBB /* raop_client.c */; };
+		E127390B2513C90600662FBB /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = E12739002513C90500662FBB /* aes.c */; };
+		E174B8A52514D4FD00EB1023 /* wav_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = E174B8A32514D4FD00EB1023 /* wav_stream.c */; };
+		E174B8AE2515064900EB1023 /* audio_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = E174B8AC2515064900EB1023 /* audio_stream.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E12738E32513C55400662FBB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E12738E52513C55400662FBB /* tst9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tst9; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12738ED2513C90500662FBB /* raop_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = raop_client.h; path = ../../raop_client.h; sourceTree = "<group>"; };
+		E12738EE2513C90500662FBB /* raop_play.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = raop_play.c; path = ../../raop_play.c; sourceTree = "<group>"; };
+		E12738EF2513C90500662FBB /* rtsp_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtsp_client.h; path = ../../rtsp_client.h; sourceTree = "<group>"; };
+		E12738F12513C90500662FBB /* rtsp_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rtsp_client.c; path = ../../rtsp_client.c; sourceTree = "<group>"; };
+		E12738F22513C90500662FBB /* raop_play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = raop_play.h; path = ../../raop_play.h; sourceTree = "<group>"; };
+		E12738F82513C90500662FBB /* aexcl_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aexcl_lib.c; path = ../../aexcl_lib.c; sourceTree = "<group>"; };
+		E12738FA2513C90500662FBB /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = base64.h; path = ../../base64.h; sourceTree = "<group>"; };
+		E12738FC2513C90500662FBB /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = base64.c; path = ../../base64.c; sourceTree = "<group>"; };
+		E12738FD2513C90500662FBB /* raop_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = raop_client.c; path = ../../raop_client.c; sourceTree = "<group>"; };
+		E12738FE2513C90500662FBB /* aexcl_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aexcl_lib.h; path = ../../aexcl_lib.h; sourceTree = "<group>"; };
+		E12738FF2513C90500662FBB /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aes.h; path = ../../aes.h; sourceTree = "<group>"; };
+		E12739002513C90500662FBB /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = aes.c; path = ../../aes.c; sourceTree = "<group>"; };
+		E174B8A32514D4FD00EB1023 /* wav_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wav_stream.c; path = "../../../../Downloads/raop2_play-master 3/wav_stream.c"; sourceTree = "<group>"; };
+		E174B8A42514D4FD00EB1023 /* wav_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wav_stream.h; path = "../../../../Downloads/raop2_play-master 3/wav_stream.h"; sourceTree = "<group>"; };
+		E174B8AC2515064900EB1023 /* audio_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = audio_stream.c; path = "../../../../Downloads/raop2_play-master 3/audio_stream.c"; sourceTree = "<group>"; };
+		E174B8AD2515064900EB1023 /* audio_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audio_stream.h; path = "../../../../Downloads/raop2_play-master 3/audio_stream.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E12738E22513C55400662FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E12738BC2513C3D500662FBB = {
+			isa = PBXGroup;
+			children = (
+				E12738E72513C55400662FBB /* tst9 */,
+				E12738E62513C55400662FBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E12738E62513C55400662FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E12738E52513C55400662FBB /* tst9 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E12738E72513C55400662FBB /* tst9 */ = {
+			isa = PBXGroup;
+			children = (
+				E174B8A32514D4FD00EB1023 /* wav_stream.c */,
+				E174B8A42514D4FD00EB1023 /* wav_stream.h */,
+				E12739002513C90500662FBB /* aes.c */,
+				E12738FF2513C90500662FBB /* aes.h */,
+				E12738F82513C90500662FBB /* aexcl_lib.c */,
+				E174B8AC2515064900EB1023 /* audio_stream.c */,
+				E174B8AD2515064900EB1023 /* audio_stream.h */,
+				E12738FE2513C90500662FBB /* aexcl_lib.h */,
+				E12738FC2513C90500662FBB /* base64.c */,
+				E12738FA2513C90500662FBB /* base64.h */,
+				E12738FD2513C90500662FBB /* raop_client.c */,
+				E12738ED2513C90500662FBB /* raop_client.h */,
+				E12738EE2513C90500662FBB /* raop_play.c */,
+				E12738F22513C90500662FBB /* raop_play.h */,
+				E12738F12513C90500662FBB /* rtsp_client.c */,
+				E12738EF2513C90500662FBB /* rtsp_client.h */,
+			);
+			path = tst9;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E12738E42513C55400662FBB /* tst9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E12738EA2513C55400662FBB /* Build configuration list for PBXNativeTarget "tst9" */;
+			buildPhases = (
+				E12738E12513C55400662FBB /* Sources */,
+				E12738E22513C55400662FBB /* Frameworks */,
+				E12738E32513C55400662FBB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tst9;
+			productName = tst9;
+			productReference = E12738E52513C55400662FBB /* tst9 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12738BD2513C3D500662FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "CDust Creative Engineering";
+				TargetAttributes = {
+					E12738E42513C55400662FBB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E12738C02513C3D500662FBB /* Build configuration list for PBXProject "RAOP_Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E12738BC2513C3D500662FBB;
+			productRefGroup = E12738E62513C55400662FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12738E42513C55400662FBB /* tst9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12738E12513C55400662FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E174B8A52514D4FD00EB1023 /* wav_stream.c in Sources */,
+				E12739052513C90600662FBB /* rtsp_client.c in Sources */,
+				E127390B2513C90600662FBB /* aes.c in Sources */,
+				E12739032513C90600662FBB /* raop_play.c in Sources */,
+				E174B8AE2515064900EB1023 /* audio_stream.c in Sources */,
+				E12739082513C90600662FBB /* aexcl_lib.c in Sources */,
+				E12739092513C90600662FBB /* base64.c in Sources */,
+				E127390A2513C90600662FBB /* raop_client.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E12738C22513C3D500662FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/openssl@1.1/lib",
+					"-lcrypto",
+					"-lssl",
+					"-lid3tag",
+					"-lpthread",
+					"-lsamplerate",
+					"-v",
+				);
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Debug;
+		};
+		E12738C32513C3D500662FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/openssl@1.1/lib",
+					"-lcrypto",
+					"-lssl",
+					"-lid3tag",
+					"-lpthread",
+					"-lsamplerate",
+					"-v",
+				);
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Release;
+		};
+		E12738EB2513C55400662FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				NEW_SETTING = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E12738EC2513C55400662FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				NEW_SETTING = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E12738C02513C3D500662FBB /* Build configuration list for PBXProject "RAOP_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12738C22513C3D500662FBB /* Debug */,
+				E12738C32513C3D500662FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E12738EA2513C55400662FBB /* Build configuration list for PBXNativeTarget "tst9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E12738EB2513C55400662FBB /* Debug */,
+				E12738EC2513C55400662FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E12738BD2513C3D500662FBB /* Project object */;
+}
